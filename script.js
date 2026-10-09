@@ -16,50 +16,40 @@ let currentScene = "backyard";
 const scenes = {
   // See "backyard" for the first example
   backyard: {
-    title: "Location: Backyard",
-    character: "Interviewee:Grandma",
-    text: "Text: well what I remember happening is that Darcie went inside to play with her pretend kitchen, I heard her neighbor mention he was really hungry, and the dog ran around really quickly",
-    // you can choose how many choices to include
+    title: "Location: Outside the Grimm estate",
+    character: " ",
+    text: "The house sat before me. Despite years of decay, nature's vigor had yet to reach its walls and craggled chimneys. A lone chill sparked in my brain and ran deep into the soles of my feet.",
+
+    // you can choose how many choices to includene
     // each choice can have text, an action, and/or nextScene
     choices: [
       {
-        text: "Chase after the dog (-10 HP)",
-        action: function () {
-          updateHealth(-10);
-        },
-        nextScene: "entrance"
-      },
-      {
-        text: "Ask about the neighbor",
-        nextScene: "hallway"
+        text: "Continue",
+        nextScene: "backyard2"
       },
     ]
   },
 
-  entrance: {
-    title: "Location: Entrance",
-    character: "Interviewee:Neighbor",
-    text: "well what I remember...",
+  backyard2: {
+    title: "Location: Outside the Grimm estate",
+    text: "It seemed truly malevolent. As though god, in his wisdom, was unable to strike this beast down.",
     choices: [
-      {
-        text: "Ask about the dog",
-        nextScene: "backyard"
-      },
          {
-        text: "Ask about the neighbor",
-        nextScene: "hallway"
+        text: "continue",
+        nextScene: "backyard3"
       }
     ]
   },
 
-  hallway: {
-    title: "The Hallway",
-    text: "The hallway is dark and silent.",
+  backyard3: {
+    title: "Location: Outside the Grimm estate",
+    text: "Banished, it now stood before me. Beckoning, pulling as the tide whisks a body into its maw.",
     choices: [
       {
-        text: "backyard",
-        nextScene: "lockedDoor"
+        text: "Enter",
+        nextScene: "enter"
       }
+      
     ]
   },
 
