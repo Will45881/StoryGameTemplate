@@ -33,13 +33,6 @@ const scenes = {
         text: "Ask about the neighbor",
         nextScene: "hallway"
       },
-      {
-          text: "Pick up the brass key",
-          action: function () {
-            pickUpItem("brass key");
-          },
-          nextScene: "hallway"
-      }
     ]
   },
 
