@@ -247,7 +247,7 @@ Study: {
       }
     ]
   },
-  
+
 Livingroom: { 
     action: function () {
     updateRooms(1);
@@ -397,7 +397,7 @@ Livingroom: {
         text: "Andrew: “No matter, this is big. Let's take it along with us.”", 
         choices: [
           { text: "Go to study", nextScene: "Study"},
-          {text: "Go to your father's Study", nextScene: "Study"}
+          {text: "Go to your bedroom", nextScene: "Bedroom"}
         ]
       }
     ]
