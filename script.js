@@ -247,6 +247,7 @@ Study: {
       }
     ]
   },
+  
 Livingroom: { 
     action: function () {
     updateRooms(1);
@@ -793,7 +794,7 @@ MasterBedroom: {
               text: "Write down the code",
               action: function () {
                 pickUpItem("code");
-                currentChildIndex++;
+                currentChildIndex++; //I'm not super sure on the whole js aspect of this but I got some understanding by reading thru it.
                 updateScene(currentScene);
               }
             },
