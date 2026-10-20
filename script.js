@@ -73,7 +73,7 @@ const scenes = {
         text: "The door was unlocked. Perhaps the latch had long since rusted and decayed. Electricity seemed to remain, sporadically powering certain lamps.",
         choices: [
           { text: "Go to Bedroom", nextScene: "Bedroom" },
-          { text: "Go to living Room", nextScene: "LivingRoom" },
+          { text: "Go to living Room", nextScene: "Livingroom" },
           {text: "Go to study", nextScene: "Study"}
           
         ]
@@ -241,7 +241,7 @@ Study: {
             {
         text: "Andrew: “Yeah, you're right.”", //add to inv
         choices: [
-          { text: "Go to living room", nextScene: "LivingRoom" },
+          { text: "Go to living room", nextScene: "Livingroom" },
           { text: "Go to bedroom", nextScene: "Bedroom"},
         ]
       }
