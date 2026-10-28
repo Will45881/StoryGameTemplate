@@ -1,1 +1,39 @@
-/* i get how this works but I dont have a need for it rn.
+
+
+
+
+
+.heading {
+
+font-size: 35px;
+text-align: center;
+font-family: Franklin Gothic ATF Medium Italic;
+color: pink;
+
+}
+
+
+.card {
+
+    opacity: 0.2;
+  background-color: #DBE3E1AA;
+  opacity: 1;
+  color: black;
+  padding: 10px 20px;
+  display: inline-block;
+ border: 2px solid rgb(9, 9, 9);
+
+}
+
+
+#rooms {
+
+
+    font-size: 20px;
+    font-style: italic;
+    font-family: times new roman;
+    padding: 10px;
+
+
+
+}
