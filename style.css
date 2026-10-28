@@ -9,6 +9,10 @@ font-size: 35px;
 text-align: center;
 font-family: Franklin Gothic ATF Medium Italic;
 color: pink;
+border: 3px solid, black;
+border-style: double;
+padding: 5px;
+/* margin-bottom: 20px; I could also do this but i think it looks ugly */
 
 }
 
@@ -20,8 +24,11 @@ color: pink;
   opacity: 1;
   color: black;
   padding: 10px 20px;
+  /* margin-right: 20px; I COULD DO BUT IT messes up my margins for game and
+  you still wanted me to call both*/
   display: inline-block;
  border: 2px solid rgb(9, 9, 9);
+ /* width: 730px Okay, dont hate me but I like the natural width that changes depending on text. */
 
 }
 
@@ -37,3 +44,16 @@ color: pink;
 
 
 }
+
+.highlight {
+
+    background-color: black;
+
+}
+
+/* #choices-countainer {
+    font-style: italic;
+    font-family: times new roman;
+    color: pink;
+
+} */

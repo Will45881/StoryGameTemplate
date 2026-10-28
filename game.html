@@ -11,7 +11,9 @@
               color: #fefefe;
               font-family: Nanum Pen Script;
               background-size: 100% ;
-            background-color: #000000;
+            background-image: url("https://i.pinimg.com/736x/e9/6c/69/e96c69fbb5459d3ed7be3bf760838aff.jpg");
+            background-repeat: no-repeat;
+            background-position: center bottom -40px;
             font-size: 25px
             
             }
@@ -29,36 +31,25 @@
        </style>
 </head>
 <body>
-    <header>
-      <nav>
-            <ul> 
-                <li><a href="index.html">Home</a></li>
-            </ul>
-            <ul> 
-                <li><a href="game.html">Play the game</a></li>
-            </ul>
-            <ul> 
-                <li><a href="about.html">About the creator</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
+        <div class="highlight">
     <header class="heading">
         <h1 id="scene-title">  </h1>
+        </div>
         <h2 id="character-name">  </h2>
     </header>
     
-    <section>
+    <section style="padding-left: 50px; padding-right: 50px;">
+        <br> <br> <br> <br>
     <p id="scene-text">     </p>
-    <p  id="child-text"></p>
+    <p  id="child-text"; class="card">    </p>
 
     </section>
 
     <section>
         <div id="choices-container"> </div>
     </section>   
-        
+        <br>
     <section id="rooms">
         <p> Rooms visited: <span id="rooms-display">0</span></p>
 <img src='rooms.png' width="50" >
@@ -75,5 +66,20 @@
     <footer>
 
     </footer>
+
+
+        <header>
+      <nav>
+            <ul> 
+                <li><a href="index.html">Home</a></li>
+            </ul>
+            <ul> 
+                <li><a href="game.html">Play the game</a></li>
+            </ul>
+            <ul> 
+                <li><a href="about.html">About the creator</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 </html>
