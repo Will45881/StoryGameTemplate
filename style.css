@@ -1,63 +1,73 @@
 
+/* Shared styling */
 
+body {
+    font-family: "Courier New", monospace;
+    color: #fefefe;
+}
 
+/* Backgrounds */
+
+.game-page {
+    background-image: url("https://i.pinimg.com/736x/e9/6c/69/e96c69fbb5459d3ed7be3bf760838aff.jpg");
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    min-height: 100vh;
+}
+
+.about-page {
+    background-image: url("backround.jpeg");
+    background-size: 100%;
+    background-position: center bottom;
+}
+
+.home-page {
+    background-image: url("home.jpg");
+    background-size: 100%;
+    background-position: center bottom;
+}
 
 
 .heading {
-
-font-size: 35px;
-text-align: center;
-font-family: Franklin Gothic ATF Medium Italic;
-color: pink;
-border: 3px solid, black;
-border-style: double;
-padding: 5px;
-/* margin-bottom: 20px; I could also do this but i think it looks ugly */
-
+    font-family: "Franklin Gothic ATF Medium Italic", sans-serif;
+    font-size: 35px;
+    color: pink;
+    border: 3px double black;
+    background-color: black;
 }
 
-        a {
-      color: #0098ea; 
-         }
 
-
-.card {
-
-    opacity: 0.2;
-  background-color: #DBE3E1AA;
-  opacity: 1;
-  color: black;
-  padding: 10px 20px;
-  /* margin-right: 20px; I COULD DO BUT IT messes up my margins for game and
-  you still wanted me to call both*/
-  display: inline-block;
- border: 2px solid rgb(9, 9, 9);
- /* width: 730px Okay, dont hate me but I like the natural width that changes depending on text. */
-
+.story-card {
+    background-color: #DBE3E1AA;
+    color: black;
+    border: 2px solid rgb(9, 9, 9);
+    display: inline-block;
 }
 
 
 #rooms {
+    font-family: "Times New Roman", serif;
+}
+
+#choices-container {
+    color: pink;
+}
 
 
-    font-size: 20px;
-    font-style: italic;
-    font-family: times new roman;
-    padding: 10px;
-
-
-
+a {
+    color: #0098ea;
+}
+.game-page {
+    font-size: 18px;
 }
 
 .highlight {
-
     background-color: black;
-
 }
 
-/* #choices-countainer {
-    font-style: italic;
-    font-family: times new roman;
-    color: pink;
-
-} */
+.home-page p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
